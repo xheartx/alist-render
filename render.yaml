@@ -1,6 +1,6 @@
 services:
   # A Docker web service
-  - type: web services
+  - type: web
     name: sharelist
     env: docker
     repo: https://github.com/xheartx/alist-render.git # optional
