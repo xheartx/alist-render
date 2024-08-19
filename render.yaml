@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: alist
+    name: sharelist
     env: docker
     repo: https://github.com/xheartx/alist-render.git # optional
     region: oregon # optional (defaults to oregon)
